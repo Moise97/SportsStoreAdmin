@@ -1,0 +1,24 @@
+{
+  "name": "SportsStoreAdmin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moise97/SportsStoreAdmin.git"
+  },
+  "author": "Solcan Moise Daniel",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Moise97/SportsStoreAdmin/issues"
+  },
+  "homepage": "https://github.com/Moise97/SportsStoreAdmin#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {}
+}
