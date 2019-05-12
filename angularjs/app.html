@@ -15,7 +15,7 @@
                 });
 
                 $routeProvider.when('/main', {
-                    templateUrl: "angularjs/views/mainLogin.html"
+                    templateUrl: "angularjs/views/adminMain.html"
                 });
 
                 $routeProvider.otherwise( {
@@ -23,6 +23,7 @@
                 });
             })
         </script>
+        <script src="angularjs/controllers/adminControllers.js"></script>
     </head>
     <body>
         <ng-view/>
