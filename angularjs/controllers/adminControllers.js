@@ -19,3 +19,18 @@ angular.module("sportsStoreAdmin")
         })
     }
 })
+.controller("mainCtrl", function($scope){
+    
+    $scope.screens = ["Products", "Orders"];
+    $scope.current = $scope.screens[0];
+    
+    $scope.setScreen = function(index){
+        $scope.current = $scope.screens[index];
+    };
+    
+    $scope.getScreen = function(){
+        return $scope.current == "Products" ? 
+        "angularjs/views/adminProducts.html" : "angularjs/views/adminOrders.html";
+    };
+    
+});
